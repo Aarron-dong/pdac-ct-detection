@@ -1,0 +1,20 @@
+Noncommercial Research License for Trained Weights
+
+The PDAC study authors grant permission to download, use, copy, evaluate,
+modify and redistribute the trained checkpoints in weights/ for
+noncommercial scientific research, academic teaching and peer review.
+
+Redistribution must retain this license, the accompanying notices and the
+attribution to the associated PDAC study. Modified weights must be clearly
+identified as modified and must not be presented as the authors' original
+checkpoints. Commercial use requires separate authorization from the
+relevant rights holders.
+
+This license applies to the project-trained checkpoint files. Source
+images, annotations, third-party software and other independently licensed
+materials retain their own terms. No rights to patient identities or
+clinical source images are granted.
+
+THE WEIGHTS ARE PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND. THE AUTHORS
+AND RIGHTS HOLDERS ARE NOT LIABLE FOR CLAIMS OR DAMAGES ARISING FROM THEIR
+USE, TO THE EXTENT PERMITTED BY APPLICABLE LAW.

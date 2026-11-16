@@ -1,0 +1,5 @@
+Medical Segmentation Decathlon data: CC-BY-SA 4.0.
+Official dataset: https://medicaldecathlon.com/
+Dataset article and data-availability statement: https://doi.org/10.1038/s41467-022-30695-9
+License text: https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
+The raw MSD data are not included in this package.

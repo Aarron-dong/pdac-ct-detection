@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the upstream methods listed in NOTICE.md."
+title: "Development and external validation of a fully automated deep learning model for pancreatic ductal adenocarcinoma detection on contrast-enhanced CT"
+authors:
+  - family-names: Huang
+    given-names: Zhendong
+license: Apache-2.0

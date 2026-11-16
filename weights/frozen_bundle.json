@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "configuration": "3d_fullres",
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "ensemble_rule": "mean of five seven-class probability maps in original CT geometry; background probability 1 outside each predicted ROI; apply fixed anatomical PDAC mask after averaging",
+  "models": [
+    {
+      "fold": 0,
+      "localizer": {
+        "path": "weights/localizer/fold_0/checkpoint.pth",
+        "model_directory": "weights/localizer",
+        "epoch": 1000,
+        "sha256": "90e51d4f463a4b85fe04f764c43706dc737b0018ffe54a42f622e08902e7c825",
+        "plans_sha256": "a3a0f9c56f603d6fe401058b519629fe0d0fe7a0a4420c19067707ac6901b93b",
+        "dataset_sha256": "305b2b8295f9a0cfd08b986923e14fca1aa6d1969190eebb796dbe3654614349",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 123220775
+      },
+      "detector": {
+        "path": "weights/detector/fold_0/checkpoint.pth",
+        "model_directory": "weights/detector",
+        "epoch": 950,
+        "sha256": "e8c5ab00337c886148edc80216d844aa998c31d9e61f2661402b05be90f7a6e9",
+        "plans_sha256": "4e020718d7c8cad2f91c71d3aebb7ebf5189a5c24bb350fbda7646084291b2dd",
+        "dataset_sha256": "dd91ad61b4ad6ed2b2c27ed8b4d34fbfe3ced32877dcec9a5a711afc38c7c085",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 122906791
+      }
+    },
+    {
+      "fold": 1,
+      "localizer": {
+        "path": "weights/localizer/fold_1/checkpoint.pth",
+        "model_directory": "weights/localizer",
+        "epoch": 1000,
+        "sha256": "a1cdf9af981bf9f6c3d101c739a059b89958d0675e52b7bebc4b82bfde310480",
+        "plans_sha256": "a3a0f9c56f603d6fe401058b519629fe0d0fe7a0a4420c19067707ac6901b93b",
+        "dataset_sha256": "305b2b8295f9a0cfd08b986923e14fca1aa6d1969190eebb796dbe3654614349",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 123220775
+      },
+      "detector": {
+        "path": "weights/detector/fold_1/checkpoint.pth",
+        "model_directory": "weights/detector",
+        "epoch": 800,
+        "sha256": "540f81fe2eb5ba66e5c5773e9eb7f54ed52cad3dad088e0e2e2f42724f2bde47",
+        "plans_sha256": "4e020718d7c8cad2f91c71d3aebb7ebf5189a5c24bb350fbda7646084291b2dd",
+        "dataset_sha256": "dd91ad61b4ad6ed2b2c27ed8b4d34fbfe3ced32877dcec9a5a711afc38c7c085",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 122906791
+      }
+    },
+    {
+      "fold": 2,
+      "localizer": {
+        "path": "weights/localizer/fold_2/checkpoint.pth",
+        "model_directory": "weights/localizer",
+        "epoch": 1000,
+        "sha256": "7ec70804cf59c424d3cd49a15832a8ee0126a383121dba5b5c06944ee5c4453f",
+        "plans_sha256": "a3a0f9c56f603d6fe401058b519629fe0d0fe7a0a4420c19067707ac6901b93b",
+        "dataset_sha256": "305b2b8295f9a0cfd08b986923e14fca1aa6d1969190eebb796dbe3654614349",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 123220775
+      },
+      "detector": {
+        "path": "weights/detector/fold_2/checkpoint.pth",
+        "model_directory": "weights/detector",
+        "epoch": 950,
+        "sha256": "f277905005d335c3b6b4ab7bf9ca89e438ec5d7982f638684f2f414f59eba258",
+        "plans_sha256": "4e020718d7c8cad2f91c71d3aebb7ebf5189a5c24bb350fbda7646084291b2dd",
+        "dataset_sha256": "dd91ad61b4ad6ed2b2c27ed8b4d34fbfe3ced32877dcec9a5a711afc38c7c085",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 122906791
+      }
+    },
+    {
+      "fold": 3,
+      "localizer": {
+        "path": "weights/localizer/fold_3/checkpoint.pth",
+        "model_directory": "weights/localizer",
+        "epoch": 1000,
+        "sha256": "f78b8ac9fe0c0d9a9aa75842775300a1732823d953bce031af6798c0d2e95d9b",
+        "plans_sha256": "a3a0f9c56f603d6fe401058b519629fe0d0fe7a0a4420c19067707ac6901b93b",
+        "dataset_sha256": "305b2b8295f9a0cfd08b986923e14fca1aa6d1969190eebb796dbe3654614349",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 123220775
+      },
+      "detector": {
+        "path": "weights/detector/fold_3/checkpoint.pth",
+        "model_directory": "weights/detector",
+        "epoch": 950,
+        "sha256": "39da5f42925840fbd9740efb4c6d81385a98143e840c7b25d709c1ad19dc3737",
+        "plans_sha256": "4e020718d7c8cad2f91c71d3aebb7ebf5189a5c24bb350fbda7646084291b2dd",
+        "dataset_sha256": "dd91ad61b4ad6ed2b2c27ed8b4d34fbfe3ced32877dcec9a5a711afc38c7c085",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 122906791
+      }
+    },
+    {
+      "fold": 4,
+      "localizer": {
+        "path": "weights/localizer/fold_4/checkpoint.pth",
+        "model_directory": "weights/localizer",
+        "epoch": 1000,
+        "sha256": "8f85c15bf6d6ce8786d99fe3a8fec83487523c117cf58e5ef19268912395540c",
+        "plans_sha256": "a3a0f9c56f603d6fe401058b519629fe0d0fe7a0a4420c19067707ac6901b93b",
+        "dataset_sha256": "305b2b8295f9a0cfd08b986923e14fca1aa6d1969190eebb796dbe3654614349",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 123220775
+      },
+      "detector": {
+        "path": "weights/detector/fold_4/checkpoint.pth",
+        "model_directory": "weights/detector",
+        "epoch": 1000,
+        "sha256": "7087d7ba5e7826d0eabc5c260562bc40af5b469de530932f096d0c45d36745da",
+        "plans_sha256": "4e020718d7c8cad2f91c71d3aebb7ebf5189a5c24bb350fbda7646084291b2dd",
+        "dataset_sha256": "dd91ad61b4ad6ed2b2c27ed8b4d34fbfe3ced32877dcec9a5a711afc38c7c085",
+        "trainer_name": "nnUNetTrainerPANORAMAMSDTransfer",
+        "bytes": 122906791
+      }
+    }
+  ],
+  "schema": "pdac_five_fold_research_v1",
+  "threshold": 0.112,
+  "comparison_operator": ">="
+}

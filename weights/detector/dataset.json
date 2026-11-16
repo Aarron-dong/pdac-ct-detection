@@ -1,0 +1,17 @@
+{
+    "channel_names": {
+        "0": "CT"
+    },
+    "description": "Official-style PANORAMA full-resolution truth-pancreas ROI. Validation/inference ROIs must instead come from stage-1 predictions.",
+    "file_ending": ".nii.gz",
+    "labels": {
+        "arteries": 3,
+        "background": 0,
+        "common_bile_duct": 6,
+        "pancreas_parenchyma": 4,
+        "pancreatic_duct": 5,
+        "pdac": 1,
+        "veins": 2
+    },
+    "numTraining": 2238
+}

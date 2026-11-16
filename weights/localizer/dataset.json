@@ -1,0 +1,12 @@
+{
+    "channel_names": {
+        "0": "CT"
+    },
+    "description": "Official-style PANORAMA pancreas localizer. Label 1 is the union of released PDAC label 1 and pancreas parenchyma label 4.",
+    "file_ending": ".nii.gz",
+    "labels": {
+        "background": 0,
+        "complete_pancreas": 1
+    },
+    "numTraining": 2238
+}
